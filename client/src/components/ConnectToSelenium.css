@@ -1,0 +1,41 @@
+.connected-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+.connected-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    animation: blink 1s infinite;
+  }
+  
+  .connecting-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    animation: blink 1s infinite;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  button {
+    margin-left: 10px;
+  }
+
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
