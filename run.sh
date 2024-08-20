@@ -1,9 +1,10 @@
 
 #PREQUISITES:
 
-#npm install -g express selenium-webdriver
-#npm install -g axios
-#npm install -g cors
+#npm install express 
+#npm install selenium-webdriver
+#npm install axios
+#npm install cors
 #npm install -g pm2
 
 #Server start commands
