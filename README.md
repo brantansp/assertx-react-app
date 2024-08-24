@@ -81,6 +81,7 @@ Implement endpoints for handling subscription payments.
 Protected Routes:
 
 Create middleware to protect routes and ensure only authenticated users can access them.
+
 2. Frontend Implementation
 Set Up React Application:
 

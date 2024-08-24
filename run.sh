@@ -6,6 +6,7 @@
 #npm install axios
 #npm install cors
 #npm install -g pm2
+#npm install -g serve
 
 #Server start commands
 
@@ -14,6 +15,8 @@
 #pm2 start npm --name "react-app" -- start --output react-output.log --error react-error.log
 
 pm2 start ecosystem.config.js
+
+pm2 stop ecosystem.config.js
 
 #To check running processes:
 
